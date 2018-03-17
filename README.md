@@ -1,0 +1,2 @@
+# JsOmikuji
+おみくじ
