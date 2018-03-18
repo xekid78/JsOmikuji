@@ -6,20 +6,25 @@ Math.random()関数を使用して1 ～ 6のランダムな数字を使って、
 
 ## コード
 ```
-var omikuji = Math.floor(Math.random () * 6) + 1;
-if (omikuji === 1) {
-    console.log("大吉");
-} else if (omikuji === 2) {
-    console.log("中吉");
-} else if (omikuji === 3) {
-    console.log("小吉");
-} else if (omikuji === 4) {
-    console.log("吉");
-} else if (omikuji === 5) {
-    console.log("凶");
-} else {
-    console.log("大凶");
-}
+(function () {
+    'use strict';
+
+    var omikuji = Math.floor(Math.random () * 6) + 1;
+    if (omikuji === 1) {
+        console.log("大吉");
+    } else if (omikuji === 2) {
+        console.log("中吉");
+    } else if (omikuji === 3) {
+        console.log("小吉");
+    } else if (omikuji === 4) {
+        console.log("吉");
+    } else if (omikuji === 5) {
+        console.log("凶");
+    } else {
+        console.log("大凶");
+    }
+
+})();
 ```
 
 ## 出力例  
